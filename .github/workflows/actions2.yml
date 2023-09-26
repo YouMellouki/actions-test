@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: execute py script # run main.py
+      - name: execute py script # run main.py p
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
         run: python main.py
